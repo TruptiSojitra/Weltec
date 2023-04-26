@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/87929a3bb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="#">Have any question?</a></li>
+            <li><a href="#">+91 9714514957</a></li>
+            <li><i class="fa-solid fa-envelope-circle-check"></i><a href="#">info@weltec.in</a></li>
+              
+        </ul>
+    </div>
+    <div class="menu">
+        <img src="Image/Weltec-Logo-SVG.svg">
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Courses</li>
+                <li>Contact Us</li>                
+            </ul>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i id="bars" class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="image/banner1.jpg">
+        <div class="absolute">
+            <div class="get">
+                <p>Get</p>
+                <p id="static">Skills</p>
+            </div>
+            <p>Level Up Career</p>
+        </div>
+    </div>
+    <div class="content1">        
+            <img src="Image/students.jpg">
+            <h1>Knowledge Is The Way To Success</h1>            
+            <p>Weltec is a Leading Training and Placement Institute that offers Practical-based Professional Training Programs in the field of Mobile and Web Development, Data Analytics, Digital Marketing and Software Testing with job placement.</p>
+            <input type="button" value="START LEARNING">
+    </div>
+    <div class="content2">
+        <h1>Mode of Training</h1>
+            <div class="mode">
+            <i class="fa-solid fa-users-line fa-5x"></i>
+            <p >ClassRoom Training</p>
+            </div>
+            
+            <div class="mode">
+                <i class="fa-regular fa-address-card fa-5x"></i>
+                <p>Live Instructor Led Online Training</p>
+            </div>
+    </div>
+    <div class="content3">
+        <h1>What will You Learn?</h1>
+        <div class="courses">
+            <img src="Image/Mobile-web-development.png">
+            <img src="Image/Software-Testing-1.jpg">
+            <img src="Image/digital-marketing.png">
+            <img src="Image/business-data-intelligence.png">
+        </div>
+    </div>
+    <div class="content4">
+        <h1>What Sets Us Apart?</h1>
+        <div class="pros-container">
+            <div class="pros">
+                <i class="fa-solid fa-user-nurse fa-2x"></i>
+                <div class="detail4">
+                    <h2>Working Professionals as Trainers</h2>
+                    <p>Our trainers are not just teachers but active and experienced IT industry experts from their fields.
+                        They will only teach topics from their niche in IT field.</p>
+                </div>
+                
+            </div>
+            <div class="pros">
+                <i class="fa-solid fa-people-carry-box fa-2x"></i>
+                <div class="detail4">
+                <h2>Interview Preparation</h2>
+                <p>Only technical skills and knowledge is not enough to get a good job.<br>Therefore, we train our students to improve their soft skills and interview preparation.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa-regular fa-clock fa-2x"></i>
+                <div class="detail4">
+                <h2>Flexible Batch Timings</h2>
+                <p>Our students can be anyone from college students to working professionals.<br>So we want to make sure that we provide convenient timings for our batches.</p>
+                </div>
+            </div>
+
+            <div class="pros">
+                <i class="fa-regular fa-user fa-2x"></i>
+                <div class="detail4">
+                <h2>Practical Training Approach</h2>
+                <p>Our training is highly dependent on practical skills and knowledge with real-time case studies and examples to make our students' job-ready.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa-solid fa-users-line fa-2x"></i>
+                <div class="detail4">
+                <h2>100% Placement Support</h2>
+                <p>With our Assured Placement Program, we are working tirelessly to make sure that all of our students get their dream job based on their skills and abilities.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa-solid fa-gear fa-2x"></i>
+                <div class="detail4">
+                <h2>International Certificates</h2>
+                <p>Our certificates are recognized everywhere. We support students to prepare for other international certificates to build a strong portfolio.</p>
+                </div>
+            </div>
+            
+            <div class="pros">
+                <i class="fa-solid fa-users-gear fa-2x"></i>
+                <div class="detail4">
+                <h2>Unlimited Project Support</h2>
+                <p>We understand the value of practical skills and knowledge, so we encourage and support our students to create as many live projects as possible.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa-solid fa-indian-rupee-sign fa-2x"></i>
+                <div class="detail4">
+                <h2>No-Cost EMI For Fees</h2>
+                <p>We want knowledge to be accessible to everyone who is willing to learn. Therefore, we are providing No-Cost EMI on most of our courses.</p>
+                </div>
+            </div>
+            <div class="pros">
+                <i class="fa-regular fa-thumbs-up fa-2x"></i>
+                <div class="detail4">
+                <h2>Free Post-Course Technical Support</h2>
+                <p>Students once enrolled in our IT programs can return at any point in future for the technical support of the same topics without any additional charges.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        let x ="";
+        
+        setInterval(myTimer, 2000);
+        
+        function myTimer(){
+            
+            if (x == "Knowledge" || "") {
+                x = "Skills";
+            } else {
+                x = "Knowledge";
+            } 
+            document.getElementById('static').innerHTML = x;
+            // document.getElementById('static').innerHTML = "Get "+ x;
+            console.log(x);
+        }
+        
+    </script>
+</body>
+</html>

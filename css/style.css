@@ -1,0 +1,1006 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:0px) and (max-width: 600px){
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: navy;
+        color: white;
+    }
+    .header ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .header li{
+        padding: 12px;
+        font-size: larger;
+    }
+    .header li a{
+        text-decoration: none;
+        color: white;
+    }
+    .header li i{
+        padding-right: 5px;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 10px;
+    }
+    .menu img{
+        width: 30%;
+        height: 100px;
+    }
+    .nav ul{
+        display: none;
+        list-style-type: none;
+        align-items: center;
+    }
+    .nav li{
+        padding: 5px;
+    }
+    .nav i{
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 25px;
+        background-color: navy;
+        color: white;
+    }
+    #bars{
+        display: inline-block;
+    }
+
+    .banner{
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .absolute{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: 45px;
+        right: 10px;
+    }
+    
+    .absolute div p{
+        float: left; 
+     }
+    .absolute p{
+        display: block;
+        font-size: 27px;
+        margin: 10px;
+    }
+    #static{
+        float: left; 
+        padding-left: 2px; 
+        color:rgb(53, 119, 146);
+    }
+
+    .content1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .content1 p{
+        font-size: 15px;
+        color: gray;
+        padding: none;
+        /* text-align: center; */
+    }
+    .content1 input{
+        width: 250px;
+        height: 30px;
+        background-color: navy;
+        color: white;
+        border: none;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    .content1 img{
+        display: none;
+    }
+
+    .content2{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 242, 245);
+        padding: 20px;
+    }
+    .content2 h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .mode{
+        display: block;
+        width: 100%;
+        height: 40%;
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+    .mode i{
+        padding: 5px;
+    }
+    .mode p{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .content3{
+        width: 100%;
+        height: 1000px;
+        padding: 25px;
+    }
+    .content3 h1{
+        padding: 55px 15px;
+    }
+    .content3 .courses{
+        width: 100%;
+        height: 100%;
+        display: block;
+        /* justify-content: space-evenly; */
+    }
+    .content3 .courses img{
+        width: 100%;
+        height: 20%;
+        padding: 10px;
+    }
+
+    .content4{
+        width: 100%;
+        height: 1000px;
+        padding: 10px;
+        background-color: white;
+        /* opacity: 0.70; */
+    }
+    .content4 h1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .pros-container{
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 20px;
+    }
+    .pros{
+        padding: 10px;
+        text-align: center;
+        display: block;
+        border-color: rgba(255, 253, 253, 0.972);
+        border-style: ridge;
+    }
+    .pros i{
+        color: rgba(22, 161, 215, 0.46);
+        border: none;
+        background-color: rgba(133,199,226,0.46);
+        /* margin: 50px 0px; */
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .detail4{
+        display: block;
+        padding: 10px;
+    }
+    .detail4 h2{
+        color: gray;
+        padding-bottom: 5px;
+    }
+    .detail4 p{
+        color: gray;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: navy;
+        color: white;
+    }
+    .header ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .header li{
+        padding: 12px;
+        font-size: larger;
+    }
+    .header li a{
+        text-decoration: none;
+        color: white;
+    }
+    .header li i{
+        padding-right: 5px;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 10px;
+    }
+    .menu img{
+        width: 30%;
+        height: 100px;
+    }
+    .nav ul{
+        display: none;
+        list-style-type: none;
+        align-items: center;
+    }
+    .nav li{
+        padding: 5px;
+    }
+    .nav i{
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 25px;
+        background-color: navy;
+        color: white;
+    }
+    #bars{
+        display: inline-block;
+    }
+
+    .banner{
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .absolute{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: 45px;
+        right: 10px;
+    }
+    
+    .absolute div p{
+        float: left; 
+     }
+    .absolute p{
+        display: block;
+        font-size: 27px;
+        margin: 10px;
+    }
+    #static{
+        float: left; 
+        padding-left: 2px; 
+        color:rgb(53, 119, 146);
+    }
+
+    .content1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .content1 p{
+        font-size: 15px;
+        color: gray;
+        padding: none;
+        /* text-align: center; */
+    }
+    .content1 input{
+        width: 250px;
+        height: 30px;
+        background-color: navy;
+        color: white;
+        border: none;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    .content1 img{
+        display: none;
+    }
+
+    .content2{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 242, 245);
+        padding: 20px;
+    }
+    .content2 h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .mode{
+        display: block;
+        width: 100%;
+        height: 40%;
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+    .mode i{
+        padding: 5px;
+    }
+    .mode p{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .content3{
+        width: 100%;
+        height: 1000px;
+        padding: 25px;
+    }
+    .content3 h1{
+        padding: 55px 15px;
+    }
+    .content3 .courses{
+        width: 100%;
+        height: 100%;
+        display: block;
+        /* justify-content: space-evenly; */
+    }
+    .content3 .courses img{
+        width: 100%;
+        height: 20%;
+        padding: 10px;
+    }
+
+    .content4{
+        width: 100%;
+        height: 1000px;
+        padding: 10px;
+        background-color: white;
+        /* opacity: 0.70; */
+    }
+    .content4 h1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .pros-container{
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 20px;
+    }
+    .pros{
+        padding: 10px;
+        text-align: center;
+        display: block;
+        border-color: rgba(255, 253, 253, 0.972);
+        border-style: ridge;
+    }
+    .pros i{
+        color: rgba(22, 161, 215, 0.46);
+        border: none;
+        background-color: rgba(133,199,226,0.46);
+        /* margin: 50px 0px; */
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .detail4{
+        display: block;
+        padding: 10px;
+    }
+    .detail4 h2{
+        color: gray;
+        padding-bottom: 5px;
+    }
+    .detail4 p{
+        color: gray;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .header{
+        width: 100%;
+        height: 50px;
+        background-color: navy;
+        color: white;
+    }
+    .header ul{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .header li{
+        padding: 12px;
+    }
+    .header li a{
+        text-decoration: none;
+        color: white;
+    }
+    .header li i{
+        padding-right: 5px;
+    }
+    #bars{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+    }
+    .menu img{
+        width: 15%;
+        height: auto;
+    }
+    .nav ul{
+        display: inline-flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .nav li{
+        padding: 10px;
+    }
+    .nav i{
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 25px;
+        background-color: navy;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .absolute{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: 160px;
+        right: 30px;
+    }
+    
+    .absolute div p{
+        float: left;
+    }
+    .absolute p{
+        display: block;
+        font-size: 55px;
+        margin: 10px;
+    }
+    #static{
+        float: left; 
+        padding-left: 2px; 
+        color:rgb(53, 119, 146);
+    }
+    .content1 {
+        width: 100%;
+        height: 400px;
+        padding: 70px;
+    }
+    .content1 p{
+        font-size: 16px;
+        color: gray;
+        padding: 25px 0px;
+    }
+    .content1 input{
+        width: 250px;
+        height: 50px;
+        background-color: navy;
+        color: white;
+        border: none;
+        letter-spacing: 3px;
+    }
+    .content1 img{
+        float: right;
+        width: 60%;
+        height: 100%;
+        padding-left: 85px;
+    }
+    .content2{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 242, 245);
+        padding: 70px;
+    }
+    .content2 h1{
+        text-align: center;
+    }
+    .mode{
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+        text-align: center;
+    }
+    .mode i{
+        padding: 10px ;
+        
+    }
+    .mode p{
+        padding: 10px ;
+        /* text-align: center; */
+    }
+    .content3{
+        width: 100%;
+        height: 300px;
+        padding: 25px;
+    }
+    .content3 h1{
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .courses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .courses img{
+        width: 20%;
+        height: 100%;
+    }
+    .content4{
+        width: 100%;
+        height: 2000px;
+        padding: 50px;
+        background-color: white;
+        /* opacity: 0.70; */
+    }
+    .content4 h1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .pros-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .pros{
+        padding: 10px;
+        /* text-align: center; */
+        display: inline-flex;
+        border-color: rgba(255, 253, 253, 0.972);
+        border-style: ridge;
+    }
+    .pros i{
+        color: rgba(22, 161, 215, 0.46);
+        border: none;
+        background-color: rgba(133,199,226,0.46);
+        margin: auto;
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .detail4{
+        display: block;
+        padding: 10px;
+    }
+    .detail4 h2{
+        color: gray;
+        padding-bottom: 5px;
+    }
+    .detail4 p{
+        color: gray;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .header{
+        width: 100%;
+        height: 50px;
+        background-color: navy;
+        color: white;
+    }
+    .header ul{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .header li{
+        padding: 12px;
+    }
+    .header li a{
+        text-decoration: none;
+        color: white;
+    }
+    .header li i{
+        padding-right: 5px;
+    }
+    #bars{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+    }
+    .menu img{
+        width: 15%;
+        height: auto;
+    }
+    .nav ul{
+        display: inline-flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .nav li{
+        padding: 10px;
+    }
+    .nav i{
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 25px;
+        background-color: navy;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .absolute{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: 150px;
+        right: 180px;
+    }
+    
+    .absolute div p{
+        float: left;
+    }
+    .absolute p{
+        display: block;
+        font-size: 55px;
+        margin: 10px;
+    }
+    #static{
+        float: left; 
+        padding-left: 2px; 
+        color:rgb(53, 119, 146);
+    }
+    .content1 {
+        width: 100%;
+        height: 400px;
+        padding: 70px;
+    }
+    .content1 p{
+        font-size: 20px;
+        color: gray;
+        padding: 25px 0px;
+    }
+    .content1 input{
+        width: 250px;
+        height: 50px;
+        background-color: navy;
+        color: white;
+        border: none;
+        letter-spacing: 3px;
+    }
+    .content1 img{
+        float: right;
+        width: 60%;
+        height: 100%;
+        padding-left: 85px;
+    }
+    .content2{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 242, 245);
+        padding: 70px;
+    }
+    .content2 h1{
+        text-align: center;
+    }
+    .mode{
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+    }
+    .mode i{
+        padding: 10px 140px;
+    }
+    .mode p{
+        padding: 10px 115px;
+    }
+    .content3{
+        width: 100%;
+        height: 300px;
+        padding: 25px;
+    }
+    .content3 h1{
+        text-align: center;
+        /* padding: 25px 450px; */
+    }
+    .courses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .courses img{
+        width: 20%;
+        height: 100%;
+    }
+    .content4{
+        width: 100%;
+        height: 1000px;
+        padding: 50px;
+        background-color: white;
+        /* opacity: 0.70; */
+    }
+    .content4 h1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .pros-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+    .pros{
+        padding: 10px;
+        /* text-align: center; */
+        display: inline-flex;
+        border-color: rgba(255, 253, 253, 0.972);
+        border-style: ridge;
+    }
+    .pros i{
+        color: rgba(22, 161, 215, 0.46);
+        border: none;
+        background-color: rgba(133,199,226,0.46);
+        margin: auto;
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .detail4{
+        display: block;
+        padding: 10px;
+    }
+    .detail4 h2{
+        color: gray;
+        padding-bottom: 5px;
+    }
+    .detail4 p{
+        color: gray;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .header{
+        width: 100%;
+        height: 50px;
+        background-color: navy;
+        color: white;
+    }
+    .header ul{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .header li{
+        padding: 12px;
+    }
+    .header li a{
+        text-decoration: none;
+        color: white;
+    }
+    .header li i{
+        padding-right: 5px;
+    }
+    #bars{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+    }
+    .menu img{
+        width: 15%;
+        height: auto;
+    }
+    .nav ul{
+        display: inline-flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .nav li{
+        padding: 10px;
+    }
+    .nav i{
+        padding: 10px;
+        border: 5px solid;
+        border-radius: 25px;
+        background-color: navy;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .absolute{
+        position: absolute;
+        display: flex; 
+        flex-direction: column;
+        top: 150px;
+        right: 180px;
+    }
+    
+    .absolute div p{
+        float: left;
+    }
+    .absolute p{
+        display: block;
+        font-size: 55px;
+        margin: 10px;
+    }
+    #static{
+        float: left; 
+        padding-left: 2px; 
+        color:rgb(53, 119, 146);
+    }
+    .content1 {
+        width: 100%;
+        height: 400px;
+        padding: 70px;
+    }
+    .content1 p{
+        font-size: 20px;
+        color: gray;
+        padding: 25px 0px;
+    }
+    .content1 input{
+        width: 250px;
+        height: 50px;
+        background-color: navy;
+        color: white;
+        border: none;
+        letter-spacing: 3px;
+    }
+    .content1 img{
+        float: right;
+        width: 60%;
+        height: 100%;
+        padding-left: 85px;
+    }
+    .content2{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(240, 242, 245);
+        padding: 70px;
+    }
+    .content2 h1{
+        text-align: center;
+    }
+    .mode{
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 50px;
+    }
+    .mode i{
+        padding: 10px 140px;
+    }
+    .mode p{
+        padding: 10px 115px;
+    }
+    .content3{
+        width: 100%;
+        height: 300px;
+        padding: 25px;
+    }
+    .content3 h1{
+        text-align: center;
+        padding: 25px;
+    }
+    .courses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .courses img{
+        width: 20%;
+        height: 100%;
+    }
+    .content4{
+        width: 100%;
+        height: 1000px;
+        padding: 50px;
+        background-color: white;
+        /* opacity: 0.70; */
+    }
+    .content4 h1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .pros-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+    .pros{
+        padding: 10px;
+        /* text-align: center; */
+        display: inline-flex;
+        border-color: rgba(255, 253, 253, 0.972);
+        border-style: ridge;
+    }
+    .pros i{
+        color: rgba(22, 161, 215, 0.46);
+        border: none;
+        background-color: rgba(133,199,226,0.46);
+        margin: auto;
+        padding: 10px;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .detail4{
+        display: block;
+        padding: 10px;
+    }
+    .detail4 h2{
+        color: gray;
+        padding-bottom: 5px;
+    }
+    .detail4 p{
+        color: gray;
+    }
+}
